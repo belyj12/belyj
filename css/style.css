@@ -241,40 +241,28 @@ body {
   margin: 0 auto 0 auto;
 }
 
-.card-1 {
+.card {
   position: relative;
   display: inline-table;
-  margin: 0 25px 25px 0px;
   box-shadow:  0 0 40px #0000001a;
   width: 572px;
   height: 505px;
 }
 
+.card-1 {
+  margin: 0 25px 25px 0px;
+}
+
 .card-2 {
-  position: relative;
-  display: inline-table;
   margin: 0 0px 25px 0px;
-  box-shadow:  0 0 40px rgba(0, 0, 0, 0.1);
-  width: 572px;
-  height: 505px;
 }
 
 .card-3 {
-  position: relative;
-  display: inline-table;
   margin: 0 25px 50px 0;
-  box-shadow:  0 0 40px rgba(0, 0, 0, 0.1);
-  width: 572px;
-  height: 505px;
 }
 
 .card-4 {
-  position: relative;
-  display: inline-table;
   margin: 0 0 50px;
-  box-shadow:  0 0 40px rgba(0, 0, 0, 0.1);
-  width: 572px;
-  height: 505px;
 }
 
 .card-number {
