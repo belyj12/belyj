@@ -191,17 +191,8 @@ body {
 .container-1 {
   margin: 0 auto;
   padding: 50px 0;
-  width: 1169px;
-    /* min-width: 320px; */
-
+  width: 1170px;
   background-color: #fff;
-}
-
-.header-1{
-  display: block;
-  width: 1169px;
-  height: 103px;
-  margin: 0 auto 0 auto;
 }
 
 .img-logo {
@@ -240,8 +231,9 @@ body {
   display: block;
   margin: 0 auto 0 auto;
   padding: 0;
-  width: 1198px;
+  width: 1170px;
   margin: 0 auto 0 auto;
+  font-size: 0;
 }
 
 .card {
@@ -251,25 +243,26 @@ body {
   width: 572px;
   height: 505px;
   background-repeat: no-repeat;
+  margin: 0 25px 25px 0px;
+  }
+
+.card:nth-child(even) {
+  margin-right: 0;
 }
 
 .card-1 {
-  margin: 0 25px 25px 0px;
   background-image: url("../img/photo1-vvedenie.jpg");
 }
 
 .card-2 {
-    margin: 0 0 25px 0;
   background-image: url("../img/photo2-html.jpg");
  }
 
 .card-3 {
-    margin: 0 25px 50px 0px;
   background-image: url("../img/photo3-css.jpg");
  }
 
 .card-4 {
-  margin: 0 0 50px;
   background-image: url("../img/photo1-vvedenie.jpg");
   }
 
@@ -292,10 +285,13 @@ body {
   line-height: 46.88px;
 }
 
+.text-block {
+  padding-left: 25px;
+}
+
 .text-block li {
   display: block;
-  list-style-type:none
-  margin: 0 0 0 25px;
+  list-style-type:none;
   font-weight: 400;
   font-size: 20px;
   line-height: 33px;
@@ -304,13 +300,20 @@ body {
 
 .link-modules {
   position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
   width: 274px;
   height: 70px;
-  margin: 0 auto 0 auto;
+  margin: 25px auto 0 auto;
   border: 2px solid #3F2AFF;
   font-weight: 700;
   font-size: 18px;
   color: #3F2AFF;
+  background-color: #fff;
+}
+
+.link-modules:hover {
+  background-color: #e6eaf5;
 }
 
 .link-modules p {
